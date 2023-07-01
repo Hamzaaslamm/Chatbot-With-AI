@@ -1,0 +1,104 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m ChatGPT 10, your bot assistant", "I'm ChatGPT 10, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["My name is ChatGPT 10. How can I assist you today?.", "My name is ChatGPT 10", "Just call me as ChatGPT 10"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "createaccount",
+    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+    "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+     },
+    {
+      "tag": "order",
+      "patterns": ["How can I place an order?", "What are the ordering options?", "Can I order online?"],
+      "responses": ["You can place an order through our website or by calling us at our customer support hotline.", "We offer online ordering through our website. You can also call us to place an order."]
+    },
+    {
+      "tag": "payment",
+      "patterns": ["What payment options are available?", "How do I pay for my order?", "Can I pay with a credit card?"],
+      "responses": ["We accept various payment methods, including credit card, PayPal, and bank transfer. You can choose your preferred payment method during checkout.", "You can pay for your order using your credit card, PayPal account, or bank transfer."]
+    },
+    {
+      "tag": "cancelorder",
+      "patterns": [
+        "I want to cancel my order.",
+        "Can you cancel my order?",
+        "How can I cancel my order?"
+      ],
+      "responses": [
+        "Sure, Please provide your order details so that we can cancel it for you.",
+        "Please share your order details to cancel your order.",
+        "We're sorry to hear that. Please give us your order information and we will assist you in canceling it."
+      ]
+    },
+    {
+      "tag": "booking",
+      "patterns": ["How can I book a reservation?", "Do I need to make a reservation?", "Can I reserve a table?"],
+      "responses": ["You can book a reservation by calling us, visiting our website, or using our mobile app."]
+    },
+    {
+      "tag": "menu",
+      "patterns": ["What's on the menu?", "Can you tell me about your dishes?", "What do you recommend?"],
+      "responses": ["Our menu includes a variety of dishes, including [insert dishes here]. Our staff can also make recommendations based on your preferences."]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What are your hours of operation?", "When are you open?", "What time do you close?"],
+      "responses": ["We are open from [insert opening time] to [insert closing time] every day."]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where are you located?", "What's your address?", "How do I get to your restaurant?"],
+      "responses": ["We are located at [insert address here]. You can find directions on our website or by using a map app on your phone."]
+    },
+    {
+      "tag": "payment",
+      "patterns": ["What forms of payment do you accept?", "Can I pay with a credit card?", "Do you accept cash?"],
+      "responses": ["We accept [insert forms of payment here], including cash, credit cards, and mobile payments like Apple Pay and Google Pay."]
+    },
+    {
+      "tag": "delivery",
+      "patterns": ["Do you offer delivery?", "Can I get food delivered?", "Is there a delivery fee?"],
+      "responses": ["Yes, we offer delivery. Delivery fees vary based on your location and order size. You can place a delivery order by calling us or using our mobile app."]
+    },
+    {
+      "tag": "reservation",
+      "patterns": ["I want to make a reservation", "Can you reserve a table for me?", "I need to book a table"],
+      "responses": ["Sure, we can help you make a reservation. What date and time would you like to reserve a table for?"]
+    },
+    {
+      "tag": "reviews",
+      "patterns": ["What are your reviews like?", "Do you have good ratings?", "Can you tell me about customer feedback?"],
+      "responses": ["Our customers have left us positive reviews on [insert review platforms here], praising our food, service, and atmosphere."]
+    },
+    {
+      "tag": "discounts",
+      "patterns": ["Do you offer any discounts?", "Is there a happy hour?", "Are there any specials?"],
+      "responses": ["Yes, we offer discounts on [insert items here], as well as a happy hour special from [insert happy hour time]. You can also check our website for current specials."]
+    }
+    
+]
+}
